@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>雷竞技 · 专注赛事竞猜体验</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #faf9f7;
+      color: #1e1e1e;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      line-height: 1.7;
+      font-weight: 400;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 28px;
+    }
+    /* hero */
+    .hero {
+      padding: 100px 0 60px;
+      text-align: center;
+      border-bottom: 1px solid #eae7e2;
+    }
+    .hero h1 {
+      font-size: 2.6rem;
+      font-weight: 550;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      margin-bottom: 24px;
+      color: #1a1a1a;
+    }
+    .hero .sub {
+      font-size: 1.15rem;
+      color: #555;
+      max-width: 560px;
+      margin: 0 auto 32px;
+      font-weight: 380;
+    }
+    .hero a {
+      display: inline-block;
+      background: #1e2a32;
+      color: #fff;
+      padding: 12px 36px;
+      border-radius: 40px;
+      font-size: 1rem;
+      font-weight: 470;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.1s;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    .hero a:hover {
+      background: #2b3a46;
+      transform: scale(1.01);
+    }
+    /* section 通用 */
+    section {
+      padding: 64px 0;
+    }
+    section h2 {
+      font-size: 1.6rem;
+      font-weight: 520;
+      letter-spacing: -0.01em;
+      margin-bottom: 28px;
+      color: #222;
+      border-left: 4px solid #b7a88f;
+      padding-left: 20px;
+    }
+    section p {
+      margin-bottom: 20px;
+      color: #353535;
+      font-size: 1rem;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px 36px;
+      margin: 28px 0 8px;
+    }
+    .feature-item {
+      background: #ffffff;
+      padding: 20px 24px 24px;
+      border-radius: 14px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.02), 0 2px 8px rgba(0,0,0,0.02);
+      transition: box-shadow 0.2s;
+      border: 1px solid #efebe6;
+    }
+    .feature-item strong {
+      font-size: 1.05rem;
+      display: block;
+      margin-bottom: 6px;
+      color: #1e2a32;
+      font-weight: 540;
+    }
+    .feature-item span {
+      font-size: 0.95rem;
+      color: #4a4a4a;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #e0dbd3;
+      margin: 12px 0 40px;
+    }
+    .faq-item {
+      margin-bottom: 28px;
+    }
+    .faq-item strong {
+      display: block;
+      font-weight: 520;
+      margin-bottom: 6px;
+      color: #222;
+      font-size: 1.05rem;
+    }
+    .faq-item p {
+      margin-bottom: 0;
+      color: #464646;
+    }
+    .footer-links {
+      padding: 40px 0 60px;
+      border-top: 1px solid #e8e3db;
+      text-align: center;
+      font-size: 0.92rem;
+      color: #5c5c5c;
+    }
+    .footer-links a {
+      color: #1e2a32;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      text-decoration-color: #cbc3b7;
+      transition: text-decoration-color 0.2s;
+    }
+    .footer-links a:hover {
+      text-decoration-color: #1e2a32;
+    }
+    .footer-links .sep {
+      margin: 0 10px;
+      color: #b7b0a5;
+    }
+    @media (max-width: 600px) {
+      .hero { padding: 72px 0 44px; }
+      .hero h1 { font-size: 2rem; }
+      .grid-2 { grid-template-columns: 1fr; gap: 16px; }
+      section h2 { font-size: 1.4rem; padding-left: 16px; }
+      .container { padding: 0 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- hero -->
+    <div class="hero">
+      <h1>雷竞技 · 赛事竞猜的另一种方式</h1>
+      <div class="sub">
+        围绕真实体育与电子竞技对局，提供清晰、直接的信息与选项。适合想认真了解竞技赛事竞猜的用户。
+      </div>
+      <a href="https://cn-ssl-rayesports.com">雷竞技</a>
+    </div>
+
+    <!-- 优势区 -->
+    <section>
+      <h2>为什么选择雷竞技</h2>
+      <p>从赛事覆盖到交互流程，每个环节都围绕参与者的实际体验构建。以下是一些关键特点：</p>
+      <div class="grid-2">
+        <div class="feature-item">
+          <strong>赛事覆盖面</strong>
+          <span>主流电竞赛事（LPL、Major、Ti 等）及传统体育联赛，信息更新及时。</span>
+        </div>
+        <div class="feature-item">
+          <strong>界面简洁</strong>
+          <span>去除了冗余导航与复杂弹窗，选项直接陈列，适合快速查找。</span>
+        </div>
+        <div class="feature-item">
+          <strong>数据参考</strong>
+          <span>每场对局展示近期战绩、排名变动、选手状态等辅助信息，供用户综合判断。</span>
+        </div>
+        <div class="feature-item">
+          <strong>稳定访问</strong>
+          <span>采用加密连接，基础网络优化，减少加载延迟与中断情况。</span>
+        </div>
+      </div>
+      <p style="margin-top: 24px;">无论你关注的是 Dota 2 国际邀请赛，还是足球五大联赛，<a href="https://cn-ssl-rayesports.com">雷竞技</a>都提供对应的赛事卡片与实时变动提示。</p>
+    </section>
+
+    <!-- 说明区：从内容切入 -->
+    <section>
+      <h2>赛事竞猜的底层逻辑</h2>
+      <p>许多用户将竞猜视为观赛的延伸——在结果产生前，根据自己的分析或直觉做出选择。雷竞技不包装「必胜策略」，而是提供足够透明的选项与赔率变动历史，让每个参与者自行判断。</p>
+      <p>平台上的每一场赛事都包含简明的对阵图、近期交锋记录以及选手/战队数据。这些内容并非预测工具，而是辅助信息。用户可借此梳理自己的思路，而非依赖模糊的推荐。</p>
+      <p>另一方面，雷竞技注重账户安全与操作反馈。所有资金相关操作均需二次确认，账户变动有日志可查。对于新手，每个竞猜选项旁附有简短说明（如「让分」与「大小分」的含义），降低理解门槛。</p>
+      <hr>
+      <p style="font-size: 0.95rem; color: #4f4f4f;">👉 如果你之前接触过类似平台，会发现雷竞技的交互更加克制——没有自动弹出的窗口，也没有夸大胜率的宣传语。信息本身即工具。</p>
+    </section>
+
+    <!-- FAQ 摘要 -->
+    <section>
+      <h2>常见疑问摘要</h2>
+      <div class="faq-item">
+        <strong>雷竞技对新手友好吗？</strong>
+        <p>是的。每项竞猜均配有规则提示，且支持小额试玩模式（虚拟额度），帮助用户熟悉流程而不产生实际损失。</p>
+      </div>
+      <div class="faq-item">
+        <strong>赛事数据更新频率如何？</strong>
+        <p>主要电竞赛事在开赛前 24 小时至赛中保持实时变动，传统体育赛事则根据官方信息源同步。所有数据均标注来源或更新时间。</p>
+      </div>
+      <div class="faq-item">
+        <strong>账户是否有存取限制？</strong>
+        <p>存取均通过加密通道处理，最低金额设置合理，具体以平台页面上展示的规则为准。如有疑问可查阅帮助中心。</p>
+      </div>
+      <div class="faq-item">
+        <strong>是否提供移动端适配？</strong>
+        <p>网页版完全响应式，手机浏览器可直接使用。部分用户反馈在移动端的操作布局比桌面端更紧凑，适合单手浏览。</p>
+      </div>
+    </section>
+
+    <!-- 底部链接 -->
+    <div class="footer-links">
+      <a href="https://cn-ssl-rayesports.com">雷竞技</a>
+      <span class="sep">·</span>
+      <span>关于赛事数据说明</span>
+      <span class="sep">·</span>
+      <span>帮助中心</span>
+      <span class="sep">·</span>
+      <span>隐私条款</span>
+      <br style="margin-top: 10px; display: block; content: '';">
+      <span style="display: inline-block; margin-top: 14px; color: #6b6b6b;">© 2025 · 本页面仅作介绍用途</span>
+    </div>
+  </div>
+</body>
+</html>
